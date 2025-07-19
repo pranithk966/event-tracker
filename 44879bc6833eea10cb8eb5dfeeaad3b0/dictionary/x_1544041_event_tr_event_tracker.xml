@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8fc75f0e833eea10cb8eb5dfeeaad3f5" label="event tracker" max_length="40" name="x_1544041_event_tr_event_tracker" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="event type" max_length="40" name="event_type" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>
